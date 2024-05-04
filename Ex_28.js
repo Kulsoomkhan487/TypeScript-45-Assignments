@@ -1,7 +1,5 @@
-"use strict";
 // Stages of Life: Write an if-else chain that determines a person’s stage of life. Set a value for the variable age, and then:
 // • If the person is less than 2 years old, print a message that the person is a baby.
-Object.defineProperty(exports, "__esModule", { value: true });
 // • If the person is at least 2 years old but less than 4, print a message that the person is a toddler.
 // • If the person is at least 4 years old but less than 13, print a message that the person is a kid.
 // • If the person is at least 13 years old but less than 20, print a message that the person is a teenager.
@@ -46,3 +44,4 @@ else if (age1 < 65) {
 else {
     console.log(`Age is ${age}, The person is an elder`);
 }
+export {};

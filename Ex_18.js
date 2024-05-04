@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 let myfav_Place = ["Eiffel Tower", "Palm Jumeirah", "Burj Khalifa", "Hunza Valley", "Do Darya"];
 console.log(myfav_Place);
 // printing array in alphabatical order
@@ -24,3 +22,4 @@ console.log(sorted_array1);
 // sorted reverse array
 let sorted_reverse = sorted_array1.reverse();
 console.log(sorted_reverse);
+export {};
